@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
 # Logs
@@ -174,4 +175,6 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 
+=======
+>>>>>>> 992a24f3d9b56c2047fe4381821e24fcc0967d2c
 .vercel

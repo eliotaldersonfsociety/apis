@@ -7,6 +7,8 @@ import { userRouter } from "./routes/user.route"; // Importa la nueva ruta
 import type { JwtVariables } from "hono/jwt";
 import actualizarRouter from "./routes/actualizar.route";
 
+const port = process.env.PORT || 3000;
+
 type Variables = JwtVariables;
 
 const app = new Hono<{ Variables: Variables }>();
